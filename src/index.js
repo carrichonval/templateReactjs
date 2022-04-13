@@ -21,7 +21,6 @@ const routing = (
   <Router history={customHistory}>
       <Switch>
             <Route exact path="/" component={Home} />
-            {/*<Route exact sensitive path="/Recettes" component={Recettes} />*/}
           </Switch>
   </Router>
 )
